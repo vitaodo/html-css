@@ -1,1 +1,0 @@
-# meu exercícios de programação
