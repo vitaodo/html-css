@@ -63,6 +63,10 @@ article {
     font-size: 5vh;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 article.normal {
     background-color: white;
     color: black;
@@ -71,12 +75,25 @@ article.normal {
 article.imagem{
     background-color: rgb(53, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.468);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 article.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.314);
+    background-color: rgba(0, 0, 0, 0.485);
+    text-shadow: 1px 1px 0px black;
+}
+
+article#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+article#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
